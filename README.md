@@ -1,4 +1,4 @@
-#Stay Home And Eat Well
+# Stay Home And Eat Well
 ## How to run the website
 1. cd into the project/server directory.
 2. Run npm install. This will download all required server-side dependencies.
