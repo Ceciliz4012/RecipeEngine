@@ -1,0 +1,89 @@
+.movies-container {
+  display: flex;
+  flex-flow: column wrap;
+  margin-top: 10px;
+}
+
+.movies-container .movie, .movies-container .movieResults {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+}
+
+.movie .header, .movieResults .title, .movieResults .id, .movieResults .rating {
+  flex: 1 0 25%;
+}
+
+.h5 { 
+  color: rgb(44, 32, 7); 
+  font-family: 'Helvetica Neue', sans-serif; font-size: 50px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center;  
+}
+
+.filtering { 
+  color: black; align-items: center; font-family: 'Source Sans Pro', sans-serif; font-size: 15px; text-align: center; 
+}
+
+.filters {
+  display: grid;
+  grid-template-columns: 150px 150px 170px 150px;
+  grid-gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+.background {
+  background-image: url("../style/foodbk.jpeg");
+  min-height: 2500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.gridcontainer {
+  display: grid;
+  grid-template-columns: 250px 250px 250px;
+  grid-gap: 30px;
+  align-items: center;
+  height: 40px;
+  padding: 0 10px;
+  justify-content: space-around;
+}
+
+.name .rating .author .cooktime {
+  color:black; font-size: 30px; font-family: "Libre Baskerville", serif; line-height: 45px; text-shadow: 0 1px 1px #fff;
+}
+
+.recipeID {
+  color:black; font-size: 20px; font-weight: bold; 
+}
+
+
+.whitebk {
+  background-image: url("../style/white.jpeg");
+  min-height: 2000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.lemonbk {
+  background-image: url("../style/lemon.jpg");
+  min-height: 2000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tablebk {
+  background-image: url("../style/table.jpg");
+  min-height: 3000px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
